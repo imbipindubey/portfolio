@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dubeyji's</title>
+  <link rel="stylesheet" href="dubeyji.css">
+  <script src="https://kit.fontawesome.com/47224d52fe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="C:\Users\Bipin\OneDrive\Documents\Personal Portfolio website\Images\download (1).jpg" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+        <img src="Images\moon.png" id="icon">
+      </nav>
+      <div class="header-text">
+        <p>Web Deveveloper</p>
+        <h1>Hi, I'm <span>Bipin</span> <br> from India</h1>
+      </div>
+    </div>
+  </div>
+  <!-----about me-------> 
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="C:\Users\Bipin\OneDrive\Documents\Personal Portfolio website\Images\Profile.1.jpeg" alt="Kai re lavdya">
+        </div>
+        <div class="about-col-2">
+         <h1 class="sub-title">About Me</h1>
+         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
+          the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+          publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Web Development</span><br>designing the websites</li>
+              <li><span>App Development</span><br>designing the Mobile Application</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Feb2022-Sep2022</span><br>Customer Care Executive at Edge Business solutions PVT LTD</li>
+              <li><span>April2021-Nov2021</span><br>Customer Care Executive at CyFuture India PVT LTD.</li>
+              <li><span>July2019-Feb2020</span><br>Intership at Domain Computer Education</li>
+              <li><span>May2018-July2018</span><br>Internship at MindITServices</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2019</span><br>Diploma in Computer Engineering from MSBTE</li>
+              <li><span>2017</span><br>12th HSC from Kolhapur Divisional Board</li>
+              <li><span>2015</span><br>10th SSC from Kolhapur Divisional Board </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------services------->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="service-list">
+        <div>
+          <i class="fas fa-code"></i>
+          <h2>Front End Development</h2>
+          <p>Having Intermediate Knowledge of <br><span>HTML,CSS,JavaScript.</span></p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fas fa-code"></i>
+          <h2>Back End Development</h2>
+          <p>Having Intermediate Knowledge of <br><span>SQL,JAVA,C++.</span></p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-sharp fa-solid fa-network-wired"></i>
+          <h2>Hardware Networking</h2>
+          <p>As I have worked for about 4 5 months for <br>
+          Domain Coputer Education,so i can troubleshoot basic hardware faults</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--------portfolio-------->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="C:\Users\Bipin\OneDrive\Documents\Personal Portfolio website\Images\Untitled.png" alt="">
+          <div class="layer">
+            <h3>Personal Portfolio Website</h3>
+            <p>This is my personal website which shows my coding skills</p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+      </div>
+       <a href="#" class="btn">See More</a>
+    </div>
+  </div>
+  <!---contact---->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fas fa-paper-plane"></i> dubeyji639835@gmail.com</p>
+          <p><i class="fas fa-phone-square-alt"></i> 7972639835</p>
+          <div class="social-icons">
+            <a href="#"><i class="fas fa-facebook"></i></a>
+            <a href="#"><i class="fas fa-twitter-square"></i></a>
+            <a href="#"><i class="fas fa-instagram"></i></a>
+            <a href="#"><i class="fas fa-linkedin"></i></a>
+          </div>
+          <a href="C:\Users\Bipin\OneDrive\Documents\Personal Portfolio website\Images\Resume7972.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="8" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright @ DUBEY Made With <i class="fas fa-heart"></i> by Bipin Dubey</p>
+    </div>
+  </div>
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+
+  </script>
+  <script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+      sidemeu.style.right= "0";
+    }
+    function closemenu(){
+      sidemeu.style.right= "-200px"
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxCaBV2j8p3iwefFrZL1xyxzUcWMlFGKOjnummRCNBDe1LkfljF7IXEIl6IqCxddc5S7w/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function(){
+            msg.innerHTML=""
+          }, 5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script>
+    var icon = document.getElementById("icon");
+    icon.onclick= function(){
+      document.body.classList.toggle("dark-theme");
+      if(document.body.classList.contains("dark-theme")){
+        icon.src="Images/sun.png";
+      }
+      else{
+        icon.src="Images/moon.png";
+      }
+    }
+  </script>
+</body>
+</html>
