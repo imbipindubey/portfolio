@@ -22,12 +22,12 @@ html{
     padding: 10px 10%;
  }
  :root{
-    --primary-color:#edf2fc;
-    --secondary-color:#212121;
+    --primary-color:#212121;
+    --secondary-color:#edf2fc;
  }
  .dark-theme{
-    --primary-color:#000106;
-    --secondary-color:#fff;
+    --primary-color:#fff;
+    --secondary-color:#000106;
  }
  #icon {
     width: 30px;
